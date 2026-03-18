@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\main.o"
+".\delay.o"
+".\gpio.o"
+".\pwm.o"
+".\i2c_soft.o"
+".\oled.o"
+".\sensor.o"
+".\key.o"
+".\alarm.o"
+".\parking.o"
+".\startup_stm32f10x_md.o"
+".\system_stm32f10x.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_tim.o"
+--strict --scatter ".\ZNTCC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ZNTCC.map" -o .\ZNTCC.axf
