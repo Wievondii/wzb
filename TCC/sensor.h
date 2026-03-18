@@ -10,9 +10,11 @@
 
 void Sensor_Scan(void);
 void Sensor_Update(void);
+void Sensor_Update_Cooldown(void);
 uint8_t Sensor_Get_Park_Status(uint8_t index);
 uint8_t Sensor_Get_Entry_Trigger(void);
 uint8_t Sensor_Get_Exit_Trigger(void);
+uint8_t Sensor_Get_Entry_Full_Trigger(void);
 void Sensor_Clear_Trigger(void);
 void Sensor_Clear_Full_Trigger(void);
 

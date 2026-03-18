@@ -1,0 +1,21 @@
+# Object files
+*.o
+*.d
+*.axf
+*.lnp
+*.map
+*.sct
+*.htm
+*.build_log.htm
+
+# Build directories
+TCC/Objects/
+TCC/Listings/
+
+# Keil project files (keep source, exclude build artifacts)
+*.uvguix.*
+*_Target*.dep
+
+# Temporary files
+*.bak
+*.tmp

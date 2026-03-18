@@ -241,6 +241,7 @@ int main(void)
         // 100ms 任务
         if (s_100ms_Flag) {
             s_100ms_Flag = 0;
+            Sensor_Update_Cooldown();
             Sensor_Update();
             Parking_Process();
             Alarm_Update();

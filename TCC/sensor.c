@@ -120,7 +120,14 @@ void Sensor_Scan(void)
         g_debounce_exit = 0;
     }
     g_last_exit_state = current_state;
-    
+}
+
+/**
+ * @brief   更新冷却计时器
+ * @note    每 100ms 调用一次
+ */
+void Sensor_Update_Cooldown(void)
+{
     // 冷却计时器递减
     if (g_entry_cooldown > 0) {
         g_entry_cooldown--;

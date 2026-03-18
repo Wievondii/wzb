@@ -126,7 +126,10 @@ void Parking_Process(void)
     if (s_vehicle_entered) {
         g_current_parking_duration = g_systemTickCount - s_entry_timestamp;
     }
-    
+
+    // 同步空车位数量
+    g_parking_empty = g_emptyCount;
+
     // 自动模式下的处理
     if (g_systemMode == MODE_AUTO) {
         // 检查入口传感器触发（有空位时）
