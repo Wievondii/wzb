@@ -19,3 +19,11 @@ TCC/Listings/
 # Temporary files
 *.bak
 *.tmp
+
+# Archive files (use source control instead)
+*.zip
+*.rar
+*.7z
+
+# Build output logs
+build_output.txt
