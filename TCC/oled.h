@@ -14,6 +14,20 @@
 #define OLED_HEIGHT     64
 #define OLED_PAGE       8
 
+// 中文字符索引定义
+#define CHI_HUAN    0   // 欢
+#define CHI_YING    1   // 迎
+#define CHI_GUANG   2   // 光
+#define CHI_LIN     3   // 临
+#define CHI_CHE     4   // 车
+#define CHI_WEI     5   // 位
+#define CHI_YI      6   // 已
+#define CHI_MAN     7   // 满
+#define CHI_YI1     8   // 一
+#define CHI_LU      9   // 路
+#define CHI_PING    10  // 平
+#define CHI_AN      11  // 安
+
 // 函数声明
 void OLED_Init(const I2C_PinDef* i2c_pin);
 void OLED_Clear(const I2C_PinDef* i2c_pin);
