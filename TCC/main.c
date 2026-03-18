@@ -182,8 +182,6 @@ void Key_Process(void)
             g_lastParkingTime.valid = 0;
             g_lastParkingTime.duration = 0;
             g_current_parking_duration = 0;
-            s_vehicle_entered = 0;
-            s_entry_timestamp = 0;
             Alarm_Beep(2);
             break;
             

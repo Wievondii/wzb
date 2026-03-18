@@ -6,6 +6,7 @@
 #include "oled.h"
 #include "delay.h"
 #include "i2c_soft.h"
+#include <stdio.h>
 
 // OLED 显存
 uint8_t OLED_GRAM[128][8];
