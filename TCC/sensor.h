@@ -1,6 +1,8 @@
 /**
  * @file    sensor.h
- * @brief   传感器检测逻辑头文件
+ * @brief   传感器检测逻辑头文件 - 完全重写版本
+ * @version 4.0
+ * @date    2026-03-18
  */
 
 #ifndef __SENSOR_H__
@@ -8,6 +10,26 @@
 
 #include "stm32f10x.h"
 
+/* ==================== 诊断信息结构体 ==================== */
+typedef struct {
+    // 传感器状态
+    uint8_t park1_state;
+    uint8_t park2_state;
+    uint8_t park3_state;
+    uint8_t entry_state;
+    uint8_t exit_state;
+
+    // 冷却时间
+    uint16_t entry_cooldown;
+    uint16_t exit_cooldown;
+
+    // 触发标志
+    uint8_t entry_trigger;
+    uint8_t exit_trigger;
+    uint8_t entry_full_trigger;
+} Sensor_Diagnostics_t;
+
+/* ==================== 函数声明 ==================== */
 void Sensor_Scan(void);
 void Sensor_Update(void);
 void Sensor_Update_Cooldown(void);
@@ -17,7 +39,9 @@ uint8_t Sensor_Get_Exit_Trigger(void);
 uint8_t Sensor_Get_Entry_Full_Trigger(void);
 void Sensor_Clear_Trigger(void);
 void Sensor_Clear_Full_Trigger(void);
+void Sensor_Get_Diagnostics(Sensor_Diagnostics_t* diag);
 
+/* ==================== 全局变量 ==================== */
 // 传感器状态
 extern uint8_t g_park_sensor_state[3];      // 车位传感器状态
 extern uint8_t g_entry_sensor_state;        // 入口传感器状态
