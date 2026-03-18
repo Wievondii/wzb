@@ -1,0 +1,160 @@
+*** Using Compiler 'V6.21', folder: 'E:\keil5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(13): warning: In file included from..../system.h(12): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling main.c...
+sensor.c(6): warning: In file included from..../sensor.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling sensor.c...
+key.c(6): warning: In file included from..../key.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling key.c...
+parking.c(6): warning: In file included from..../parking.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling parking.c...
+alarm.c(6): warning: In file included from..../alarm.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling alarm.c...
+delay.c(6): warning: In file included from..../delay.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling delay.c...
+oled.c(6): warning: In file included from..../oled.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling oled.c...
+pwm.c(8): warning: In file included from..../pwm.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling pwm.c...
+gpio.c(6): warning: In file included from..../gpio.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling gpio.c...
+i2c_soft.c(7): warning: In file included from..../i2c_soft.h(9): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling i2c_soft.c...
+assembling startup_stm32f10x_md.s...
+RTE/Device/STM32F103C8/system_stm32f10x.c(64): warning: In file included from...E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+E:/keil5/packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(486): error: 'core_cm3.h' file not found
+  486 | #include "core_cm3.h"
+      |          ^~~~~~~~~~~~
+3 warnings and 1 error generated.
+compiling system_stm32f10x.c...
+".\ZNTCC.axf" - 11 Error(s), 33 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
